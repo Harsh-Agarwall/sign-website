@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    background:rgba(0, 0, 0, 0.1) url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    backdrop-filter: blur(2.5px);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position:relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: black;
+    font-size:28px;
+    text-decoration: none;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    text-shadow: 0.5px 0.5px 1px #000000;
+
+
+}
+header .navigation a:not(:last-child){
+    margin-right: 1px;
+}
+header .navigation a:hover{
+    background: #fff;
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+    margin-top: 200px;
+
+}
+.content .info h2{
+color: #000000;
+font-size: 60px;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 2px;
+line-height: 60px;
+margin-bottom: 30px;
+}
+.content .info p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.content .info-btn{
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;;
+
+}
+.content .info-btn:hover{
+    background:#0C4F60
+}
+

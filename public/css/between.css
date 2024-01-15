@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.container{
+    position: relative;
+    left: 310px;
+    bottom: 130px;
+   
+}
+body{
+    overflow: hidden;
+    background-color: #606C38;
+}
+.container .card{
+    margin: 10px;
+
+}
+.card{
+    box-shadow: 10px 10px 10px 10px;
+    transition: 0.6s;
+    
+
+}
+.card:hover{
+    transform: scale(1.2);
+}
+h2{
+position: absolute;
+z-index: 1;
+top: 100px;
+font-family: "Nunito";
+font-weight: 1000;
+rotate: -10deg;
+font-size: 45px;
+color:black;
+}
+.image{
+    background-image: url("../images2/arrow.png");
+    background-size: cover;
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    top: 150px;
+    left: 190px;
+    rotate: 50deg;
+    z-index: 1;
+
+}
+.image1{
+    background-image: url("../images2/arrow.png");
+    background-size: cover;
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    top: 240px;
+    right: 240px;
+    rotate: -160deg;
+    z-index: 1;
+}
+h1{
+    position: absolute;
+    z-index: 1;
+    bottom: 170px;
+    font-family: "Nunito";
+    font-weight: 1000;
+    rotate: 5deg;
+    font-size: 45px;
+    color:black;
+    right: 1px;
+    width: 25rem;
+    }
+.image3{
+   
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 100px;
+    /* left: 190px; */
+    /* rotate: 20deg; */
+    z-index: 1;
+    
+}
+.image4{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 100px;
+    /* left: 190px; */
+    /* rotate: 20deg; */
+    z-index: 1;
+    right: 100px;
+}
+.image5{
+    position: absolute;
+   height: 200px;
+    
+    top: 10px;
+    /* left: 190px; */
+    /* rotate: 20deg; */
+    z-index: 1;
+    right: 600px;
+}
+.image6{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: -80px;
+    /* left: 190px; */
+    /* rotate: 20deg; */
+    z-index: 1;
+    right: 500px;
+}

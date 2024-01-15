@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* .navbar{
+  /* height: 50px; */
+/* background-color: #283618; */
+/* position: absolute; */
+/* margin:0;
+padding: 0; */
+
+/* top:0.3px; */
+
+
+/* } */ 
+/* .navbar-custom {
+  background-color: #283618;
+} */
+
+body{
+    /* margin: 0;
+    padding: 0; */
+    /* background-image: url("../images/background.png"); */
+    /* filter: brightness(30%); */
+    background-color: #606C38;
+    background-size: cover;
+    overflow: hidden;
+    /* filter: blur(8px);
+    z-index: -1px; */
+    /* scroll-behavior: smooth; */
+  }
+  .image{
+    /* background-color: #fff; */
+    background-image: url("../images2/png.png");
+    background-size: cover;
+    position: absolute;
+    /* margin-top: 100px; */
+    width: 400px;
+    height: 400px;
+    left: 950px;
+    top: 150px;
+   
+    /* z-index: 1; */
+  }
+h1{
+    position: absolute;
+    left: 50px;
+    top: 280px;
+    font-size: 100px;
+    color: #EAE0D5;
+  }
+  .image2{
+      
+      background-image: url("../images2/logo1.png");
+      filter: brightness(30%);
+    background-size: cover;
+    background-blend-mode: darken ;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 80px;
+    left: 70px;
+    rotate: 40deg;
+  }
+  /* .container{
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    left: 50px;
+    top: 200px;
+    overflow: hidden;
+    
+  } */
+.btnn{
+    border: 2.5px solid black;
+    border-radius: 30px;
+    /* border: none; */
+    background: none;
+    padding: 10px 20px;
+    font-size: 38px;
+    font-family: "montserrat";
+    font-weight: 600;
+    cursor: pointer;
+    margin: 30px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn1,.btn2{
+    color: black;
+  }
+  .btn3,.btn4{
+    color: black;
+  }
+  .btn1:hover,.btn2:hover{
+    color: black;
+  }
+  .btn3:hover,.btn4:hover{
+    color: black;
+  }
+  .btnn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #DDA15E;
+    z-index: -1;
+    transition: 0.8s;
+  }
+  .btn1::before,.btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+  }
+  .btn2::before,.btn4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+  }
+  .btn3::before,.btn4::before{
+    height: 180%;
+  }
+  .btn1:hover::before,.btn2:hover::before{
+    height: 180%;
+  }
+  .btn3:hover::before,.btn4:hover::before{
+    height: 0%;
+  }
+
+.hi{
+  position: absolute;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 700px;
+  height: 100px;
+  left: 65rem;
+  top: 10rem;
+}
+p{
+  /* font-style: italic; */
+  font-weight: 500;
+  font-family:"Nunito";
+  position: relative;
+  font-size: 80px;
+  right: 190px;
+  bottom: 80px;
+}
+/* span{
+ position:absolute;
+
+ 
+padding: 10px; 
+top: 300px;
+} */
+.a{
+  position: absolute;
+  top:540px;
+  left: 10px;
+}
+.b{
+  position: absolute;
+  top:540px;
+  left: 270px;
+
+}
+.c{
+  position: absolute;
+  top:540px;
+  left:670px ;
+}
+.d{
+  position: absolute;
+  top:540px;
+  left:1120px ;
+}
+
+
+
+  

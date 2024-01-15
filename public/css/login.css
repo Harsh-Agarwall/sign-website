@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    height:100vh;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+}
+.container{
+    min-width: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 2.75rem 2.5rem;
+    border-radius: 1rem;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 40px 40px 60px -7px rgba(0, 0, 0, 0.25);
+
+}
+.container h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.container .input_bx{
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+ .container input{
+    background:transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0.6rem;
+    padding-left: 1.5rem;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+.container span{
+    position: absolute;
+    width: 100%;
+    height: 0.09rem;
+    bottom: 0;
+    left: 0;
+    background:black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s;
+
+}
+
+.container input:focus+span{
+    transform: scaleX(1);
+}
+
+.input_bx label{
+    position: absolute;
+    left: 1.5rem;
+    font-size: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+    transition: top 0.4s;
+}
+.container input:focus ~ label,
+.container input:valid ~ label{
+    top:-0.3rem
+}
+.container .fa-solid{
+    position: absolute;
+    left: 0.2rem;
+    font-size: 0.75rem;
+
+}
+.cache-bx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+} 
+.cache-bx a{
+    color: black;
+    position: relative;
+    transition: 0.3s;
+}
+.remember-bx{
+    display: flex;
+    align-items: center;
+    
+}
+.remember-bx input{
+    width: auto;
+}
+.remember-bx label{
+    margin-left: 0.5rem;
+}
+button{
+    border: none;
+    outline: none;
+    background: white;
+    width: 100%;
+    margin: 0.9rem;
+    margin-left: -1px;
+    padding:8px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease;
+    
+}
+button:hover{
+    background: grey;
+}
+.container p{
+display: flex;
+font-size: 0.75rem;
+align-items: center;
+justify-content: center;
+}
+.container p a{
+    color: black;
+    margin-left: 0.2rem;
+    position: relative;
+    transition: 0.3s;
+
+}
+a::after{
+    content:'';
+    position:absolute;
+    bottom: -0.1rem;
+    left: 0;
+    transform-origin: right;
+    transform:scaleX(0);
+    width: 100%;
+    height: 1px;
+    background: black;
+    transition: transform 0.3s;
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+
+}
